@@ -19,8 +19,8 @@ Proyecto Final - Agente Inteligente para Emprendedores Gastronómicos
 # %pip install --upgrade --quiet  youtube_search
 
 import os
-os.environ['OPENAI_API_KEY'] = "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"
-os.environ["TAVILY_API_KEY"] = "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"
+os.environ['OPENAI_API_KEY'] = "OPENAI_API"
+os.environ["TAVILY_API_KEY"] = "TAVILY_API"
 
 from langchain.agents import create_react_agent, AgentExecutor
 from langchain import hub
