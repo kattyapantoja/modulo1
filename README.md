@@ -30,3 +30,7 @@ Se utilizan archivos CSV para alimentar el sistema con datos de productos, recet
 -	Herramientas personalizadas: Funciones propias para lógica del negocio.
 -	Agente ReAct: Usado para razonar y ejecutar herramientas según necesidad.
 -	Memoria: Se usa `ConversationBufferMemory` para mantener contexto.
+
+EN CASO EJECUCIÓN LOCAL:
+-Asegúrese de generar las APIs en https://app.tavily.com/home y https://platform.openai.com/ para que el código corra normalmente
+-Asegúrese de cargar las bases de datos csv antes de correr el código para evitar errores
