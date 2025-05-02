@@ -30,4 +30,3 @@ Se utilizan archivos CSV para alimentar el sistema con datos de productos, recet
 -	Herramientas personalizadas: Funciones propias para lógica del negocio.
 -	Agente ReAct: Usado para razonar y ejecutar herramientas según necesidad.
 -	Memoria: Se usa `ConversationBufferMemory` para mantener contexto.
-6.
